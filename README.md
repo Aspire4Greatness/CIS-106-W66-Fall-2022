@@ -1,2 +1,2 @@
-# CIS-106-W66-Fall-2022
+# CIS-106-Syed-Imaaduddin
 My Repository
