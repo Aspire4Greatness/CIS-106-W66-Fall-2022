@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-28 09:04:16 PM"/>
+        <attribute name="created" value="VXNlcjtIQUw7MjAyMi0wOS0yODswODo1OTo0OSBQTTsxOTMy"/>
+        <attribute name="edited" value="VXNlcjtIQUw7MjAyMi0wOS0yODswOTowNDoxNiBQTTsxOzIwMjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="miles" type="Integer" array="False" size=""/>
+            <declare name="gal" type="Integer" array="False" size=""/>
+            <output expression="&quot;Gallons used: &quot;" newline="True"/>
+            <input variable="gal"/>
+            <output expression="&quot;Miles travels: &quot;" newline="True"/>
+            <input variable="miles"/>
+            <output expression="&quot;miles per gal: &quot; &amp; (miles/gal)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

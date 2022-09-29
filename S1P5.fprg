@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-28 09:10:34 PM"/>
+        <attribute name="created" value="VXNlcjtIQUw7MjAyMi0wOS0yODswOTowNzozMCBQTTsxOTE2"/>
+        <attribute name="edited" value="VXNlcjtIQUw7MjAyMi0wOS0yODswOTowNzozNCBQTTsxO1VzZXI7SEFMOzIwMjItMDktMjg7MDk6MDQ6MTggUE07NDAwNg=="/>
+        <attribute name="edited" value="VXNlcjtIQUw7MjAyMi0wOS0yODswOToxMDozNCBQTTsxOzIwMjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price" type="Integer" array="False" size=""/>
+            <output expression="&quot;price of item: &quot;" newline="True"/>
+            <input variable="price"/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <assign variable="total" expression="price * 1.07"/>
+            <output expression="&quot;Total with tax: $&quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

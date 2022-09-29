@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-28 08:59:47 PM"/>
+        <attribute name="created" value="VXNlcjtIQUw7MjAyMi0wOS0yODswODo1MzozOSBQTTsxOTI1"/>
+        <attribute name="edited" value="VXNlcjtIQUw7MjAyMi0wOS0yODswODo1OTo0NyBQTTsxOzIwMzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="score1" type="Integer" array="False" size=""/>
+            <declare name="score2" type="Integer" array="False" size=""/>
+            <output expression="&quot;last name?&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;First Score?&quot;" newline="True"/>
+            <input variable="score1"/>
+            <output expression="&quot;Second Score?&quot;" newline="True"/>
+            <input variable="score2"/>
+            <declare name="avg" type="Integer" array="False" size=""/>
+            <assign variable="avg" expression="(score1+score2)/2"/>
+            <output expression="&quot;last name: &quot;&amp; name" newline="True"/>
+            <output expression="&quot;average of scores: &quot; &amp; avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
